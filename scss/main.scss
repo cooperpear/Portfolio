@@ -72,6 +72,8 @@ img {
             border-color: $main-color;
         }
     }
+
+    
 }
 
 // Header
@@ -82,11 +84,14 @@ img {
         background: $bg-image no-repeat center right/cover;
         height: 100vh;
         color: #fff;
+        
+        
 
         // Header Content
         .header-content {
             text-align: center;
             padding-top: 20%; 
+            
  
             h1 {
                 font-size: 4rem;
@@ -228,6 +233,10 @@ img {
             grid-area: bio;
             border-left: 3px solid $main-color;
             padding: 0.8rem;
+
+            h4 {
+                font-size: 2rem;
+            }
         }
 
         .award-1 {
@@ -240,12 +249,13 @@ img {
             grid-area: aw3;
         }
 
-        .award-1 .fas,
-        .award-2 .fas,
-        .award-3 .fas {
+        .award-1 .fa,
+        .award-2 .fa,
+        .award-3 .fa
+         {
             color: $main-color;
             margin: 1rem;
-        }
+        } 
         
     }
 

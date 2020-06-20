@@ -301,6 +301,8 @@ img {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
   padding: 0.8rem; }
+  #about-a .bio h4 {
+    font-size: 2rem; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -311,9 +313,9 @@ img {
 #about-a .award-3 {
   grid-area: aw3; }
 
-#about-a .award-1 .fas,
-#about-a .award-2 .fas,
-#about-a .award-3 .fas {
+#about-a .award-1 .fa,
+#about-a .award-2 .fa,
+#about-a .award-3 .fa {
   color: #ffbc00;
   margin: 1rem; }
 
