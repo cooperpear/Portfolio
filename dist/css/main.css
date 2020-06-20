@@ -217,7 +217,8 @@ img {
   color: #fff; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 20%; }
+    padding-top: 20%;
+    color: #333; }
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
@@ -246,6 +247,8 @@ img {
     #home-b .stats li.stats-number {
       font-size: 2rem;
       font-weight: bold; }
+    #home-b .stats li.skills-text {
+      font-size: 1rem; }
   #home-b .stats div {
     padding: 3rem 0; }
     #home-b .stats div:nth-child(odd) {
@@ -405,7 +408,8 @@ img {
       width: 20px;
       line-height: 20px;
       text-align: center;
-      padding: 0.5rem; }
+      padding: 0.5rem;
+      background-color: #ccc; }
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
     #main-footer .footer-content .social .fas {
@@ -416,7 +420,8 @@ img {
       width: 20px;
       line-height: 20px;
       text-align: center;
-      padding: 0.5rem; }
+      padding: 0.5rem;
+      background-color: #ccc; }
       #main-footer .footer-content .social .fas:hover {
         background: #ffbc00; }
 
