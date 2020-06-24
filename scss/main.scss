@@ -237,14 +237,14 @@ img {
             display: grid;
             grid-template-areas: 
             "bioimage bio bio"    
-            "aw1 aw2 aw3";    
+            "aw1 aw2 aw3";     
             grid-gap: 1.2rem;  
 
         }
 
         //Grid Area
         .bio-image {
-            grid-area: bioimage;
+            grid-area: bioimage;   
         }
 
         .bio {
