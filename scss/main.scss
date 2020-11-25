@@ -2,6 +2,7 @@
 @import 'utilities';
 @import 'item_grid';
 
+
 //General Styles
 
 *{
@@ -38,6 +39,7 @@ img {
     height: 70px;
     color: #fff;
     text-transform: uppercase;
+    
 }
 
 // Main Nav
@@ -46,9 +48,12 @@ img {
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
+    
 
     ul {
         display: flex
+        
+
         
     }
 
